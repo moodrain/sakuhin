@@ -37,7 +37,7 @@
         components: { HomePc },
         data() {
             return {
-                order: ['bookmark', 'tuanwei', 'enroll', 'we-cv', 'mall', 'danmu', 'sync', 'moodrain', 'db', 'mform', 'vocabulary', 'miao', 'wallpaper', 'fanbox'],
+                order: ['bookmark', 'tuanwei', 'enroll', 'we-cv', 'mall', 'danmu', 'laravel-streamer', 'sync', 'moodrain', 'db', 'mform', 'vocabulary', 'miao', 'wallpaper', 'fanbox'],
                 techColor: {
                     PHP: '',
                     Laravel: 'info',
@@ -154,6 +154,13 @@
                         detail: '个人用 PHP 工具库，可通过 Composer 安装，附带 JSON 配置、Curl 封装、阿里云 OSS、FTP 客户端、域名解析等工具。',
                         url: 'https://github.com/moodrain/moodrain',
                         techs: ['PHP'],
+                    }, {
+                        id: 'laravel-streamer',
+                        name: 'LaravelStreamer | Laravel 流媒体',
+                        cover: 'cover/laravel-streamer.png',
+                        detail: '在 Laravel 中实现以流媒体的形式播放本地视频文件',
+                        url: 'https://github.com/moodrain/laravel-streamer',
+                        techs: ['Laravel'],
                     }
                 ]
             }
