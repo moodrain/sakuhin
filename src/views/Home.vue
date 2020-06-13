@@ -61,7 +61,7 @@
                         name: 'gdpu-enroll | GDPU 社团招新',
                         cover: 'cover/enroll.png',
                         detail: '移动端优化的多社团多部门招新系统，有适用新生、部长、主任、老师权限的账号。线上制作简历投递，面试短信通知，各阶段报表打印，全方位提高招新效率。曾上线运营，有100多个注册用户。',
-                        url: 'http://sakuhin.moodrain.cn/enroll',
+                        url: 'https://github.com/Besfim/enroll-laravel',
                         techs: ['Laravel', 'Bootstrap'],
                     }, {
                         id: 'mform',
@@ -82,7 +82,7 @@
                         name: 'mall | 二手交易市场',
                         cover: 'cover/mall.png',
                         detail: 'Java Spring Boot 实训作业，有买家端和商家端。',
-                        url: 'http://sakuhin.moodrain.cn/mall/',
+                        url: 'https://github.com/moodrain/secondhand-trade',
                         techs: ['SpringBoot'],
                     }, {
                         id: 'tuanwei',
