@@ -7,7 +7,7 @@
                     <template slot="title">Contact</template>
                     <el-menu-item index="email">Email: <span style="margin-left: 1em;">moerain@qq.com</span></el-menu-item>
                     <el-menu-item index="github">Github: <span style="margin-left: .5em">github.com/moodrain</span></el-menu-item>                        
-                    <el-menu-item index="blog">Blog: <span style="margin-left: 1.5em;">muyu.moe</span></el-menu-item>
+                    <el-menu-item index="blog">Blog: <span style="margin-left: 1.5em;">www.moodrain.cn</span></el-menu-item>
                 </el-submenu>
             </el-menu>
         </el-header>
@@ -33,7 +33,7 @@ export default {
             switch(index) {
                 case 'email': window.open('mailto: moerain@qq.com', '_blank');break
                 case 'github': window.open('https://github.com/moodrain', '_blank');break
-                case 'blog': window.open('http://muyu.moe', '_blank');break
+                case 'blog': window.open('https://www.moodrain.cn', '_blank');break
             }
         }
     },
