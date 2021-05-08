@@ -8,7 +8,7 @@
                         <template slot="title">Contact</template>
 <el-menu-item index="email">Email: <span style="margin-left: 1em;">moerain@qq.com</span></el-menu-item>
 <el-menu-item index="github">Github: <span style="margin-left: .5em">github.com/moodrain</span></el-menu-item>
-<el-menu-item index="blog">Blog: <span style="margin-left: 1.5em;">muyu.moe</span></el-menu-item>
+<el-menu-item index="blog">Blog: <span style="margin-left: 1.5em;">www.moodrain.cn</span></el-menu-item>
 </el-submenu>
 <el-menu-item index="title" style="font-size: 1.2em;font-weight: 200;">Muyu's Projects</el-menu-item>
 </el-menu>
@@ -206,7 +206,7 @@
                         window.open('https://github.com/moodrain', '_blank');
                         break
                     case 'blog':
-                        window.open('http://muyu.moe', '_blank');
+                        window.open('https://www.moodrain.cn', '_blank');
                         break
                 }
             }
